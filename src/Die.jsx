@@ -8,9 +8,9 @@ const Die = (props) => {
   }
   return (
     <div 
-		className='die-face' 
-		style={styles} 
-		onClick={holdDice}
+		className='die-face'
+    style={styles}
+    onClick={holdDice}
 		>
       <h2 className='die__numb'>{value}</h2> 
     </div>

@@ -55,7 +55,7 @@ main {
 
 .roll__dice {
   height: 50px;
-  width: 100px;
+  /* width: 100px; */
   border: none;
   border-radius: 10px;
   background-color: #081138;
