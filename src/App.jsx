@@ -29,9 +29,8 @@ const App = () => {
 
   useEffect(() => {
     const allHeld = dice.every(die => die.isHeld)
-    // console.log(diceHeld)
     const sameValue = dice.every(die => die.value)
-    if(allHeld && sameValue) {
+    if(allHeld && sameValue){
       setTenzies(true)
        console.log('Congrats. You have won!')
     }
@@ -74,7 +73,7 @@ const App = () => {
       <h1 className='title'>Tenzies</h1>
       <p className='instructions'>Roll until all dice are the same. 
         Click each die to freeze it at its current value
-        between rolls .
+        between rolls.
         </p>
       <div className='dice__container'>
         {diceElements}
